@@ -2779,7 +2779,7 @@ button:active,
 }
 
 .row {
-    border: 1px solid blue;
+    border: 1px solid blue ;
     display: flex;
     flex: 1; /* added */
 }
@@ -2789,4 +2789,3 @@ button:active,
     border: 1px solid red;
     flex: 1; /* added */
 }
-@media
