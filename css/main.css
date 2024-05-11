@@ -1897,6 +1897,7 @@ ul {
 
 ul li {
     padding-left: 0.5em;
+    text-align: start;
 }
 
 ol {
@@ -2771,3 +2772,21 @@ button:active,
     font-size: 4rem;
     font-weight: 800;
 }
+.outer {
+    display: flex;
+    min-height: 100%;
+    flex-direction: column; /* added */
+}
+
+.row {
+    border: 1px solid blue;
+    display: flex;
+    flex: 1; /* added */
+}
+
+.item {
+    background-color: orange;
+    border: 1px solid red;
+    flex: 1; /* added */
+}
+@media
