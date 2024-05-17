@@ -2758,9 +2758,13 @@ button:active,
     }
 }
 
+.container > p {
+    color: #333;
+}
 .pricing__list,
 .pricing__dollars {
     list-style: none;
+    color: #333;
 }
 .row {
     display: flex;
